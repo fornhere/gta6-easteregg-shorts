@@ -1,0 +1,19 @@
+name: Checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - name: System tools
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          uv tool install yt-dlp
+      - name: Install (as a new user would)
+        run: ./install.sh
+      - name: Offline smoke test
+        run: tests/smoke.sh

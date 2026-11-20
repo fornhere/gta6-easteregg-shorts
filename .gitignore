@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+# çalışırken oluşanlar / runtime output
+isler/
+inceleme/
+islenen.jsonl
+kuyruk/*
+!kuyruk/ONAY.md
+izin/izinler.jsonl

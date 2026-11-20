@@ -1,0 +1,11 @@
+# TASLAK — ETKİN DEĞİL. Günde 3 kez (09:00, 15:00, 21:00 yerel saat).
+[Unit]
+Description=GTA 6 motoru günde 3 tarama
+
+[Timer]
+OnCalendar=*-*-* 09,15,21:00:00
+Persistent=true
+RandomizedDelaySec=10min
+
+[Install]
+WantedBy=timers.target

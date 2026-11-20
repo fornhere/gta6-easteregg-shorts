@@ -1,0 +1,12 @@
+# TASLAK — ETKİN DEĞİL. Kurulum README.md "Otomasyon" bölümünde; kullanıcı onayı gerekir.
+[Unit]
+Description=GTA 6 easter egg motoru: TARA + DOGRULA (+ onaylı adaylar için üretim kuyruğu)
+
+[Service]
+Type=oneshot
+WorkingDirectory=@MOTOR_DIR@
+# Üretim aşaması için ajan seç (isteğe bağlı): claude | codex | antigravity
+#Environment=GTA6_AJAN=codex
+ExecStart=@MOTOR_DIR@/zamanlayici/calistir.sh
+TimeoutStartSec=3h
+Nice=10

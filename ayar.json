@@ -1,0 +1,264 @@
+{
+ "tara": {
+  "sorgular": [
+   "GTA 6 easter egg",
+   "GTA 6 secret found",
+   "GTA 6 hidden secret",
+   "GTA 6 easter eggs new",
+   "GTA 6 mystery",
+   "GTA 6 secret location",
+   "GTA 6 creepy secret",
+   "GTA 6 reference easter egg"
+  ],
+  "sorgu_basi": 40,
+  "haber_siteleri": [
+   "gamerant.com",
+   "gamingbible.com",
+   "dexerto.com",
+   "videogameschronicle.com",
+   "ibtimes.co.uk",
+   "thewrap.com",
+   "comingsoon.net",
+   "wikigtavi.com"
+  ],
+  "eleme_sozcukleri": [
+   "cash",
+   "money",
+   "rich",
+   "weapons",
+   "weapon",
+   "features",
+   "tips",
+   "things you should",
+   "beginner",
+   "fastest",
+   "glitch",
+   "unlimited",
+   "tier list",
+   "review",
+   "trailer",
+   "leak",
+   "price",
+   "ps5 pro",
+   "pc",
+   "settings",
+   "map size",
+   "vs"
+  ]
+ },
+ "transkript": {
+  "_aciklama": "Kelime zamanlı transkript betiği. Boş = paketle gelen bin/transkript.py (faster-whisper; GPU varsa GPU, yoksa CPU). GTA6_TRANSKRIPT ortam değişkeni önceliklidir. Arayüz: python <betik> <ses|video> --out <dizin> --dil <kod>; çıktı <dizin>/<ad>.json|srt|txt. Göreli yol motor köküne göre.",
+  "betik": ""
+ },
+ "seslendir": {
+  "saglayici": "TTS sağlayıcısı (ör. Epidemic Sound MCP GenerateVoiceover; isteğe bağlı, başka TTS de olur: ham.mp3 üretmesi yeter)",
+  "ses": {
+   "Ornek1": "<sağlayıcı-ses-kimliği>",
+   "Ornek2": "<sağlayıcı-ses-kimliği>"
+  },
+  "varsayilan": "Ornek1",
+  "speed": 0.55,
+  "hedef_wps": 3.5
+ },
+ "kurgu": {
+  "sure_hedef": [
+   25,
+   45
+  ],
+  "tek_kaynak_seri_azami_sn": 4.0,
+  "kaynak_pay_azami": 0.55,
+  "cekim_azami_sn": 4.0,
+  "sure_azami": 59,
+  "kaynak_sesi": "kapali",
+  "ozgun_katman_hedef": 0.5
+ },
+ "yayin": {
+  "otomatik_yukleme": false,
+  "not": "Yükleme yalnız kullanıcı onayıyla, elle."
+ },
+ "kara_liste": {
+  "spoiler": [
+   "ending",
+   "final mission",
+   "last mission",
+   "credits",
+   "cutscene",
+   "cutscenes",
+   "spoiler",
+   "spoilers",
+   "dies",
+   "death of",
+   "betrayal",
+   "plot twist",
+   "true ending",
+   "secret ending",
+   "story mission"
+  ],
+  "ciplak": [
+   "nude",
+   "nudity",
+   "naked",
+   "strip club",
+   "stripper",
+   "strippers",
+   "topless",
+   "sex",
+   "lap dance",
+   "onlyfans",
+   "nsfw",
+   "boobs"
+  ],
+  "supheli": [
+   "romance",
+   "leak",
+   "leaked",
+   "datamine",
+   "dataminer",
+   "mod",
+   "modded",
+   "ai generated",
+   "fake"
+  ]
+ },
+ "kanca": {
+  "kalip": "B",
+  "kural": "İlk cümle 'There's a/an <tuhaf şey> in GTA 6, ...' kalıbında; 'GTA 6' ilk cümlede ZORUNLU",
+  "ust_baslik": "<KONU> IN GTA 6?"
+ },
+ "stil": {
+  "_aciklama": "Montaj görünümünün tek kaynağı (montaj/kur.py). Tablo ayar.stil ile iş başına üzerine yazılabilir.",
+  "font": "font/Montserrat.ttf",
+  "font_lisans": "font/Montserrat-OFL.txt (SIL OFL 1.1, Google Fonts)",
+  "agirliklar": {
+   "Black": "Black",
+   "ExtraBold": "ExtraBold",
+   "Bold": "Bold",
+   "SemiBold": "SemiBold"
+  },
+  "renkler": {
+   "vurgu": [
+    255,
+    212,
+    0
+   ],
+   "beyaz": [
+    255,
+    255,
+    255
+   ],
+   "gri": [
+    198,
+    204,
+    214
+   ],
+   "kirmizi": [
+    235,
+    52,
+    52
+   ],
+   "siyah": [
+    12,
+    12,
+    12
+   ],
+   "panel_zemin": [
+    12,
+    12,
+    16
+   ]
+  },
+  "altyazi": {
+   "agirlik": "Black",
+   "boyut": 92,
+   "kontur": 11,
+   "golge": [
+    0,
+    7,
+    6,
+    0.55
+   ],
+   "orta_y": 1320,
+   "azami_genislik": 920,
+   "buyuk_harf": true,
+   "en_cok_kelime": 3,
+   "en_cok_harf": 16,
+   "pop": 0.1,
+   "pop_bas": 0.85,
+   "renk": "beyaz",
+   "etkin_renk": "vurgu",
+   "kuyruk": 0.3
+  },
+  "ust_baslik": {
+   "agirlik": "Black",
+   "boyut": 84,
+   "kontur": 8,
+   "golge": [
+    0,
+    5,
+    5,
+    0.5
+   ],
+   "ust_y": 205,
+   "vurgu_kelime": "GTA 6",
+   "serit_opak": 0.42,
+   "serit_ek": 30,
+   "azami_genislik": 1010,
+   "giris_sn": 0.4
+  },
+  "kunye": {
+   "agirlik": "Bold",
+   "onek_agirlik": "SemiBold",
+   "boyut": 28,
+   "x": 44,
+   "y": 392,
+   "onek": "clip:",
+   "onek_renk": "gri",
+   "zemin": [
+    0,
+    0,
+    0,
+    0.5
+   ]
+  },
+  "sayac": {
+   "agirlik": "Black",
+   "boyut": 38,
+   "yukseklik": 70,
+   "y": 412,
+   "sag_bosluk": 44,
+   "onek": "STEP "
+  },
+  "panel": {
+   "agirlik": "ExtraBold",
+   "alt_agirlik": "SemiBold",
+   "olcek": 1.0,
+   "yaricap": 26,
+   "zemin": [
+    12,
+    12,
+    16,
+    0.86
+   ],
+   "kenar_opak": 0.12,
+   "vurgu_serit": 10,
+   "ikon_alani": 100,
+   "satir_arasi": 14,
+   "ic_bosluk_x": 44,
+   "ic_bosluk_y": 32,
+   "min_genislik": 520,
+   "buyuk_harf": true
+  },
+  "sunucu": {
+   "ust_oran": 0.58,
+   "ayrac": 6,
+   "panel_ust": 470
+  }
+ },
+ "sunucu_kipi": {
+  "_aciklama": "Harici bir sunucu/avatar video aracının (ör. Shorts Studio) sunucu videosu isler/<iş>/sunucu/sunucu.mp4 olarak konur; anlatım onun sesidir (TTS yok). Komut: motor.sh sunucu <iş> [dil].",
+  "dosya": "sunucu/sunucu.mp4",
+  "x": 0.5,
+  "y": 0.4,
+  "z": 1.25
+ }
+}
